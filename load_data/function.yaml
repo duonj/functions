@@ -1,0 +1,32 @@
+kind: local
+metadata:
+  name: load-data
+  tag: ''
+  project: mock-model-jeffrey
+spec:
+  command: ''
+  args: []
+  image: ''
+  build:
+    functionSourceCode: aW1wb3J0IG9zCgppbXBvcnQgcGFuZGFzIGFzIHBkCgoKZGVmIGxvYWRfZGF0YShjb250ZXh0LCBkYXRhX2RyaXZlciwgZGF0YV9maWxlbmFtZSk6CgogICAgIyBBc3N1bWUgZGF0YV9kcml2ZXIgaXMgZ29pbmcgdG8gYWNjZXNzIGRhdGEgZnJvbSBlbHNld2hlcmUgYW5kIHByb3ZpZGUgaXQKICAgIGRmID0gcGQucmVhZF9jc3Yob3MucGF0aC5qb2luKGRhdGFfZHJpdmVyLCBkYXRhX2ZpbGVuYW1lKSkKCiAgICAjIFN0b3JlIGRhdGFzZXQgaW4gY29udGV4dAogICAgY29udGV4dC5sb2dfZGF0YXNldCgnZGF0YScsIGRmPWRmLCBpbmRleD1GYWxzZSwgZm9ybWF0PSdjc3YnKQo=
+    commands: []
+    code_origin: /home/jeffrey/code/mlrunProject/src/functions/load_data.py
+    origin_filename: /home/jeffrey/code/mlrunProject/src/functions/load_data.py
+  entry_points:
+    load_data:
+      name: load_data
+      doc: ''
+      parameters:
+      - name: context
+        default: ''
+      - name: data_driver
+        default: ''
+      - name: data_filename
+        default: ''
+      outputs:
+      - default: ''
+      lineno: 6
+  description: ''
+  default_handler: load_data
+  disable_auto_mount: false
+verbose: false
